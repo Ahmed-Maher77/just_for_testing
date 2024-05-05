@@ -377,6 +377,7 @@ a[title="Go To Other Links"]:hover + .sub-links {
     padding-bottom: var(--sectionPadding);
     background-color: var(--sectionBackground);
     position: relative;
+    overflow: hidden;
 }
 #gallery main {
     display: grid;
@@ -445,6 +446,7 @@ a[title="Go To Other Links"]:hover + .sub-links {
     padding-top: var(--sectionPadding);
     padding-bottom: var(--sectionPadding);
     background-color: #fff;
+    overflow: hidden;
 }
 #features .container {
     display: grid;
@@ -634,6 +636,7 @@ a[title="Go To Other Links"]:hover + .sub-links {
 #team {
     padding-top: var(--sectionPadding);
     padding-bottom: var(--sectionPadding);
+    overflow: hidden;
 }
 #team .container {
     display: grid;
@@ -718,6 +721,7 @@ a[title="Go To Other Links"]:hover + .sub-links {
     padding-bottom: var(--sectionPadding);
     background-color: var(--sectionBackground);
     position: relative;
+    overflow: hidden;
 }
 #services::after {
     content: '';
@@ -965,7 +969,8 @@ a[title="Go To Other Links"]:hover + .sub-links {
 #events {
     padding-top: var(--sectionPadding);
     padding-bottom: var(--sectionPadding);
-    position: relative
+    position: relative;
+    overflow: hidden;
 }
 #events .container {
     display: flex;
@@ -1105,6 +1110,7 @@ a[title="Go To Other Links"]:hover + .sub-links {
     padding-bottom: var(--sectionPadding);
     position: relative;
     background-color: var(--sectionBackground);
+    overflow: hidden;
 }
 #pricing .dots {
     z-index: 2
@@ -1158,7 +1164,7 @@ a[title="Go To Other Links"]:hover + .sub-links {
     left: 0;
 }
 #pricing .container > aside:hover::before,
-    #pricing .container > aside:hover::after {
+#pricing .container > aside:hover::after {
     width: 100%
 }
 #pricing .container > aside::after {
@@ -1241,6 +1247,7 @@ a[title="Go To Other Links"]:hover + .sub-links {
 #videos {
     padding-top: var(--sectionPadding);
     padding-bottom: var(--sectionPadding);
+    overflow: hidden;
 }
 #videos main {
     display: flex;
@@ -1301,6 +1308,7 @@ a[title="Go To Other Links"]:hover + .sub-links {
     url(../Images/stats.jpg) no-repeat;
     background-size: cover;
     text-align: center;
+    overflow: hidden;
 }
 .sub-heading {
     font-size: 1.8rem;
@@ -1362,6 +1370,7 @@ a[title="Go To Other Links"]:hover + .sub-links {
 #discount {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 #discount > div {
     padding: 20px;
@@ -1449,7 +1458,8 @@ a[title="Go To Other Links"]:hover + .sub-links {
 footer {
     padding-top: var(--sectionPadding);
     background-color: #191919;
-    color: #fff
+    color: #fff;
+    overflow: hidden;
 }
 footer .container {
     display: flex;
